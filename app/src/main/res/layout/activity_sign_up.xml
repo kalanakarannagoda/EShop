@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/splash_app_icon"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_title"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/red"
+        android:textSize="12sp"
+        android:text="Name"/>
+
+
+    <EditText
+        android:id="@+id/signup_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:background="@drawable/custom_input_search"
+        android:hint="Achintha"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/red"
+        android:textSize="12sp"
+        android:text="Email"/>
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:background="@drawable/custom_input_search"
+        android:hint="user@example.com"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="12sp"
+        android:textColor="@color/red"/>
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:hint="........"
+        android:background="@drawable/custom_input_search"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password must contain at least 8 characters"
+        android:layout_gravity="end"
+        android:textSize="10sp"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retype Password"
+        android:textSize="12sp"
+        android:textColor="@color/red"/>
+    <EditText
+        android:id="@+id/signup_retype_password"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:hint="........"
+        android:textSize="12sp"
+        android:background="@drawable/custom_input_search"
+        />
+
+
+    <Button
+        android:id="@+id/signup_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Already have an Account ?"
+        android:textSize="12sp"
+        />
+    <Button
+        android:id="@+id/signup_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>

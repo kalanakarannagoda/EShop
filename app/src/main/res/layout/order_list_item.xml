@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@drawable/custom_input_search">
+
+    <TextView
+        android:id="@+id/order_item_order_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="23453253253223524"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/order_item_order_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="30-07-2022"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/order_item_order_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:gravity="end"
+            android:text="LKR 2,400.00"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="payment Status - "
+            android:layout_weight="1"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/order_item_order_payment_status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="Unpaid"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="Delivery Status - "
+            android:layout_weight="1"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/order_item_order_delivery_status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="On Placed"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.product.ProductFragment">
+
+    <GridView
+        android:id="@+id/product_product_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:scrollbars="none"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/product_no_product_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="No Products found"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/product_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading more products"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:background="@color/white"
+        android:visibility="invisible"
+        />
+
+
+</FrameLayout>

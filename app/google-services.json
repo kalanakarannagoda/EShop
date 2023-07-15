@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1093256938673",
+    "project_id": "eshop-bd464",
+    "storage_bucket": "eshop-bd464.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093256938673:android:53b78175bf0a7e647a4e90",
+        "android_client_info": {
+          "package_name": "com.jiat.eshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093256938673-k3ec5md2puc5rah2botpmj4jqfcbagtd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jiat.eshop",
+            "certificate_hash": "fd54168ee790f24b8ab257582e5564d7c49e6f45"
+          }
+        },
+        {
+          "client_id": "1093256938673-38cbd67duq1465n9lu4d34vakarjijg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKyOwAUCpnYaW-idxi5YDUvzyyT8vsdkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093256938673-38cbd67duq1465n9lu4d34vakarjijg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

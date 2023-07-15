@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EShop</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="orders">Orders</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="messages">Messages</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="categories">Categories</string>
+    <string name="cart">Cart</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login_title">Login to EShop</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="signup_title">Join EShop</string>
+</resources>

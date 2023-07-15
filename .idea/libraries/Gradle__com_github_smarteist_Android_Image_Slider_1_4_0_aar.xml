@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.smarteist:Android-Image-Slider:1.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a17a102be1694df82c08334bbf93f8f6/transformed/Android-Image-Slider-1.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a17a102be1694df82c08334bbf93f8f6/transformed/Android-Image-Slider-1.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a17a102be1694df82c08334bbf93f8f6/transformed/Android-Image-Slider-1.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.smarteist/Android-Image-Slider/1.4.0/6d6d57b674918f18ef3a86f97943102b07351335/Android-Image-Slider-1.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.smarteist/Android-Image-Slider/1.4.0/e936b570e0451c2c0eb5c2cc0fdca2ccc961fd3b/Android-Image-Slider-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
